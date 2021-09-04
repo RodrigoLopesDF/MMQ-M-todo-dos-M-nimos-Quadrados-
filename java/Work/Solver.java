@@ -34,7 +34,7 @@ public class Solver {
         double x;
         for(double i=1;i<=q;i++){
             x = (2*i/(q+1)) - 1;
-            array.add(new FunctionPair(x,p(x)));
+            array.add(new FunctionPair(x,f(x)));
         }
         
         return array;
